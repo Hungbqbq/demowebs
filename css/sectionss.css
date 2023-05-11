@@ -1,0 +1,70 @@
+#section-product{
+        
+    /* background-color: aqua; */
+   background-image: url(../img/gau4.jpg) ;
+   background-size:cover;
+    margin: 0 auto;
+}
+#showproduct{
+    height: 600px;
+    width: 700px;
+    margin: 0 auto;
+}
+.product{
+    margin-left: 3px;
+    height: 320px;
+    width: 230px;
+    float: left;
+    text-align: center;
+    box-shadow:  0 0 5px red;
+    background-color: pink;
+}
+.product>div>img{
+    margin-top: 5px;
+    height: 150px;
+    width: 200px;
+    
+}
+.product>input{
+    width: 60px;
+}
+.product>button{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+}
+.productchange{
+    margin-left: 3px;
+    height: 320px;
+    width: 230px;
+    float: left;
+    text-align: center;
+    box-shadow:  0 0 5px blue;
+    background-color:beige;
+}
+.productchange>div>img{
+    margin-top: 5px;
+    height: 150px;
+    width: 200px;
+}
+.productchange>input{
+    width: 60px;
+}
+.productchange>button{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: aqua;
+}
+
+#listproduct{
+    text-align: center;
+    padding-bottom: 1px;
+}
+#listproduct>tr>td>input{
+    width: 30px;
+}
+   

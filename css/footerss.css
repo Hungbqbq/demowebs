@@ -1,0 +1,88 @@
+footer {
+    min-width: 1082px;
+    max-width: 1368px;
+    height: 100%;
+    margin: 0 auto;
+    color: #0F1111;
+    padding-bottom: 20px;
+    background-color: pink;
+    border-top: 5px double pink;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .foot-nav {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer .foot-nav a {
+    margin: 5px 10px;
+    font-size: 17px;
+    color: #0F1111;
+    text-decoration: none;
+}
+
+footer .foot-nav a:hover {
+    margin: 5px 10px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.foot-end {
+    bottom: auto;
+    position: relative;
+    justify-content: center;
+    min-width: 1082px;
+    max-width: 1368px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #0F1111;
+    text-align: center;
+    float: none;
+}
+
+.foot-end .end {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot-end .end .end-child a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 40px;
+}
+
+.foot-end .end .end-child a:hover {
+    text-decoration: underline;
+}
+
+span {
+    margin: 0 auto;
+    min-width: 1082px;
+    max-width: 1368px;
+    height: 100%;
+}
+
+span>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span>a:hover {
+    text-decoration: underline;
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 400px;
+}

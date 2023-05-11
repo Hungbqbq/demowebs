@@ -1,0 +1,17 @@
+html,
+body {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    width: 100%;
+    min-width: 768px;
+    min-height: 1380px;
+    max-width: 1268px ;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
